@@ -1,14 +1,108 @@
-### Hi there 👋
+<!-- Banner -->
+<p align="center">
+  <img src="https://via.placeholder.com/1200x250.png?text=Md.+Faiyaj+Zaman+-+Senior+Full+Stack+Engineer" alt="Banner" />
+</p>
 
-My name is **Md. Faiyaj Zaman** and I'm a **Software Engineer**. An Experienced **Fullstack Developer** with a demonstrated history of working in the information technology and services industry. **Skilled in Laravel, Vue Js, React JS, MySql, Python,RESTfull API’s, Flutter, WordPress, User Experience, PHP, and WordPress plugin/theme development.** Strong engineering professional with a Bachelor of Computer Science and Engineering focused in Backend Development / Web Development from IUBAT- International University of Business, Agriculture and Technology – Bangladesh.
+<h1 align="center">👋 Hi, I'm <b>Md. Faiyaj Zaman</b></h1>
+<h3 align="center">Senior Full-Stack Software Engineer | System Designer | DevOps Enthusiast</h3>
 
-- 🌱 I’m currently learning **Docker / DevOps**...
-- 👯 I’m looking to collaborate on Open Source / Commercial Projects...
-- 💬 Ask me about **Web Application Development (PHP/Laravel/Python/ReactJs/VueJs/)**...
-- 📫 How to reach me: 
-    [LinkedIn](https://www.linkedin.com/in/faiyajz/),
+---
+
+### About Me
+
+I architect and build **production-ready, scalable software systems** using clean architecture, modular design, and DevOps.
+
+- 💼 6+ years of professional experience in **Full Stack Development**
+- 🧠 B.Sc. in **Computer Science & Engineering** (IUBAT – Bangladesh)
+- 🔭 Exploring **AI, Machine Learning & Cyber Security**
+- 🤝 Open to collaboration on **Open Source / SaaS / Commercial Projects**
+
+> _I believe maintainable code + scalable architecture = long-lasting product._
+
+---
+
+### Tech Stack
+
+#### Backend & Languages
+<p>
+  <img src="https://img.shields.io/badge/PHP-777BB3.svg?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Laravel-F9322C?style=for-the-badge&logo=laravel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=yellow"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=postman&logoColor=white"/>
+</p>
+
+#### Frontend & UI
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Livewire-DE3269?style=for-the-badge&logo=livewire&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</p>
+
+#### Database & DevOps
+<p>
+  <img src="https://img.shields.io/badge/MySQL-005C84.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Nginx-009639.svg?style=for-the-badge&logo=nginx&logoColor=white"/>
+</p>
+
+#### Currently Exploring
+<p>
+  <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=orange"/>
+  <img src="https://img.shields.io/badge/Cyber%20Security-2E8B57?style=for-the-badge&logo=kalilinux&logoColor=white"/>
+</p>
+
+---
+
+### Featured Projects (Pinned)
+
+<a href="https://github.com/faiyajz">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=faiyajz&repo=SampleProductManagement-FSG&theme=tokyonight" />
+</a>
+<a href="https://github.com/faiyajz">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=faiyajz&repo=wordpress-plugin&theme=tokyonight" />
+</a>
+
+---
+
+### GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=faiyajz&show_icons=true&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=faiyajz&theme=onedark&margin-w=10&row=1&column=6" />
+</p>
+
+---
+
+### Contribution Snake Graph (Animated)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/faiyajz/faiyajz/output/github-contribution-grid-snake.svg" />
+</p>
 
 
-![Faiyaj's github stats](https://github-readme-stats.vercel.app/api?username=faiyajz&show_icons=true&hide_border=true)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=faiyajz)](https://github.com/faiyajz/github-profile-trophy)
+---
+
+### Connect With Me
+
+<p>
+  <a href="https://www.linkedin.com/in/faiyajz/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:md.faiyajzaman@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+> _"Clean architecture, modular design, automation — that’s how impactful software is built."_
