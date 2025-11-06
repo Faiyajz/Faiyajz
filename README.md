@@ -1,10 +1,10 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://via.placeholder.com/1200x250.png?text=Md.+Faiyaj+Zaman+-+Senior+Full+Stack+Engineer" alt="Banner" />
+  <img src="https://via.placeholder.com/1200x250.png?text=Muhammad+Faiyaj+Zaman+-+Full+Stack+Engineer" alt="Banner" />
 </p>
 
-<h1 align="center">👋 Hi, I'm <b>Md. Faiyaj Zaman</b></h1>
-<h3 align="center">Senior Full-Stack Software Engineer | System Designer | DevOps Enthusiast</h3>
+<h1 align="center">👋 Hi, I'm <b>Muhammad Faiyaj Zaman</b></h1>
+<h3 align="center">Full-Stack Software Engineer | System Designer | Cyber Security Enthusiast</h3>
 
 ---
 
