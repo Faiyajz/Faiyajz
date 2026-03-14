@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">👋 Hi, I'm <b>Muhammad Faiyaj Zaman</b></h1>
-<h3 align="center">Full-Stack Software Engineer | System Designer | Cyber Security Enthusiast</h3>
+<h3 align="center">Full-Stack Software Engineer</h3>
 
 ---
 
@@ -12,9 +12,8 @@
 
 I architect and build **production-ready, scalable software systems** using clean architecture, modular design, and DevOps.
 
-- 💼 6+ years of professional experience in **Full Stack Development**
+- 💼 8+ years of professional experience in **Full Stack Development**
 - 🧠 B.Sc. in **Computer Science & Engineering** (IUBAT – Bangladesh)
-- 🔭 Exploring **AI, Machine Learning & Cyber Security**
 - 🤝 Open to collaboration on **Open Source / SaaS / Commercial Projects**
 
 > _I believe maintainable code + scalable architecture = long-lasting product._
