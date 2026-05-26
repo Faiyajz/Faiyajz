@@ -75,65 +75,69 @@ I focus on:
 
 # Production Expertise
 
-## Enterprise & Business Systems
+I build and maintain business-critical systems where reliability, maintainability, and clear architecture matter. My production experience is centered on backend-heavy platforms, modular business workflows, and full-stack delivery for real operational teams.
 
-### Email & Communication Platforms
-- Designed scalable email workflow systems and communication platforms
-- Worked on backend architecture, queue processing, API integrations, and modular services
+## Enterprise Platforms
+- Designed ERP-style modules for suppliers, inventory, activity logs, reporting, and operational workflows
+- Built maintainable service boundaries for complex business rules and role-based access
+- Worked on systems that need clean data flow, auditability, and long-term extensibility
 
-### Analytics & Reporting Systems
-- Developed data-driven analytics and reporting platforms
-- Built dashboard systems, KPI monitoring, and business intelligence workflows
+## SaaS & Product Systems
+- Developed backend APIs and full-stack features for SaaS-style applications
+- Integrated dashboards, admin panels, permissions, notifications, and workflow automation
+- Focused on shipping practical product features without compromising code quality
 
-### Human Resource Management (HRM)
-- Engineered HRM modules including employee management, attendance, permissions, and workflow automation
-- Focused on scalable role-based architecture and maintainable business logic
+## Communication & Automation
+- Built email and communication workflows with queue processing, API integrations, and modular services
+- Improved developer and operational workflows through automation, CI/CD, and deployment practices
+- Designed systems to reduce manual effort while keeping behavior observable and controlled
 
-### Hotel & Hospitality Management Systems
-- Built management systems for operational workflows, reservations, and administration
-- Worked on scalable backend infrastructure and business process automation
-
-### ERP & Enterprise Platforms
-- Architected modular ERP-style systems for production environments
-- Designed supplier, inventory, activity logging, and operational management workflows
+## Analytics & Operations
+- Built reporting and analytics features for business visibility and KPI monitoring
+- Worked on HRM and hospitality workflows including employees, attendance, permissions, reservations, and administration
+- Translated operational requirements into structured, scalable software modules
 
 ---
 
 # Engineering Focus
 
-- Scalable System Design
-- RESTful API Architecture
-- Clean Code & SOLID Principles
-- Service-Oriented Architecture
-- Modular Development
-- CI/CD & Automation
-- Performance Optimization
-- Technical Leadership
-- Team Collaboration & Mentorship
+- Backend architecture with Laravel, PHP, Python, FastAPI, and REST APIs
+- Modular system design using clean code, SOLID principles, and service-oriented boundaries
+- Database-backed business logic with attention to data integrity, performance, and maintainability
+- CI/CD pipelines, deployment workflows, Linux servers, Docker, Nginx, and cloud infrastructure
+- Queue-based processing, API integrations, automation, and production workflow design
+- Technical leadership through code review, planning, mentoring, and delivery ownership
 
 ---
 
 # Selected Work
 
-Most of my production work is private or confidential.
+Most of my production work is private or confidential, so I describe it by system type and engineering responsibility.
 
-My experience includes:
-- ERP Platforms
-- Enterprise Applications
-- SaaS Systems
-- API Architecture
-- Cloud Infrastructure
-- Full Stack Product Development
-- CI/CD & DevOps Automation
+## ERP & Operations Platform
+- Designed and implemented modules for suppliers, inventory, activity tracking, reporting, and administrative workflows
+- Focused on modular architecture, maintainable business rules, and scalable backend services
+
+## HRM System
+- Built employee management, attendance, permissions, and workflow automation features
+- Designed role-based access patterns and structured backend logic for operational teams
+
+## Email & Communication Platform
+- Worked on queue-driven email workflows, API integrations, template handling, and backend services
+- Improved reliability and maintainability for communication-heavy business processes
+
+## Analytics & Dashboard Systems
+- Developed reporting interfaces, KPI views, and data-driven workflows
+- Connected backend data structures with frontend dashboards for clearer business visibility
 
 ---
 
 # GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=faiyajz&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://ghstats.dev/api/card?username=faiyajz&theme=tokyonight" alt="Faiyaj's GitHub stats" />
   
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=faiyajz&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=faiyajz&theme=tokyonight&hide_border=true" alt="Faiyaj's GitHub streak stats" />
 </p>
 
 ---
@@ -141,15 +145,15 @@ My experience includes:
 # GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=faiyajz&theme=tokyonight&row=1&column=6&margin-w=15&margin-h=15"/>
+  <img src="https://github-trophies.vercel.app/?username=faiyajz&theme=tokyonight&row=1&column=6&margin-w=15&margin-h=15" alt="Faiyaj's GitHub trophies"/>
 </p>
 
 ---
 
-# Contribution Graph
+# 3D Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/faiyajz/faiyajz/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Faiyaj's 3D contribution graph" />
 </p>
 
 ---
