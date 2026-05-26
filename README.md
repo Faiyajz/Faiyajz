@@ -153,7 +153,7 @@ Most of my production work is private or confidential, so I describe it by syste
 # 3D Contribution Graph
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Faiyaj's 3D contribution graph" />
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="Faiyaj's 3D contribution graph" />
 </p>
 
 ---
