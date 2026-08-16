@@ -26,10 +26,11 @@ const graphql = async (query, variables = {}) => {
 const data = await graphql(
   `query Profile($login: String!, $from: DateTime!, $mergedQuery: String!) {
     user(login: $login) {
-      repositories(first: 100, ownerAffiliations: [OWNER], isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) { totalCount nodes { name description primaryLanguage { name } pushedAt } }
+      repositories(first: 100, privacy: PUBLIC, ownerAffiliations: [OWNER], isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) { totalCount nodes { name description primaryLanguage { name } pushedAt } }
+      followers { totalCount }
       contributionsCollection(from: $from) {
-        totalCommitContributions
         commitContributionsByRepository(maxRepositories: 100) { repository { nameWithOwner } }
+        contributionCalendar { totalContributions weeks { contributionDays { contributionCount } } }
       }
     }
     merged: search(query: $mergedQuery, type: ISSUE, first: 5) {
@@ -63,11 +64,28 @@ const latestPosts = async (url, label) => {
 };
 
 const contributed = new Set(data.user.contributionsCollection.commitContributionsByRepository.map(({ repository }) => repository.nameWithOwner)).size;
+const languageCounts = new Map();
+for (const { primaryLanguage } of data.user.repositories.nodes) {
+  if (primaryLanguage?.name) languageCounts.set(primaryLanguage.name, (languageCounts.get(primaryLanguage.name) || 0) + 1);
+}
+const languages = [...languageCounts.entries()].sort(([, a], [, b]) => b - a).slice(0, 5);
+const activityDays = data.user.contributionsCollection.contributionCalendar.weeks.flatMap(({ contributionDays }) => contributionDays).slice(-14);
+const activityCounts = activityDays.map(({ contributionCount }) => contributionCount);
+const activityMax = Math.max(...activityCounts, 1);
+const pulsePoints = activityCounts.map((count, index) => {
+  const x = 540 + (index * 320) / Math.max(activityCounts.length - 1, 1);
+  const y = 150 - (count / activityMax) * 52;
+  return `${x.toFixed(1)},${y.toFixed(1)}`;
+}).join(' ');
+const [, pulseTail = '860.0,150.0'] = pulsePoints.match(/.*\s(.+)$/) || [];
+const [pulseX, pulseY] = pulseTail.split(',');
 const values = {
   PUBLIC_REPOS: data.user.repositories.totalCount,
+  FOLLOWERS: data.user.followers.totalCount,
   MERGED_PRS: data.merged.issueCount,
-  COMMITS: data.user.contributionsCollection.totalCommitContributions,
+  COMMITS: data.user.contributionsCollection.contributionCalendar.totalContributions,
   CONTRIBUTED_REPOS: contributed,
+  TOP_LANGUAGES: languages.map(([name]) => name.toLowerCase()).join(' · ') || 'no public language data',
 };
 const xmlSafe = (text) => String(text || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const active = data.user.repositories.nodes[0];
@@ -77,6 +95,19 @@ for (const panelPath of panelPaths) {
   for (const [marker, value] of Object.entries(values)) {
     panel = panel.replace(new RegExp(`(<text id="${marker}"[^>]*>)[^<]*(</text>)`), `$1${value}$2`);
   }
+  panel = panel.replace(/(<polyline id="ACTIVITY_PULSE"[^>]*points=")[^"]*(")/, `$1${pulsePoints}$2`);
+  panel = panel.replace(/(<circle id="ACTIVITY_PULSE_RING"[^>]*cx=")[^"]*(" cy=")[^"]*(")/, `$1${pulseX}$2${pulseY}$3`);
+  panel = panel.replace(/(<circle id="ACTIVITY_PULSE_DOT"[^>]*cx=")[^"]*(" cy=")[^"]*(")/, `$1${pulseX}$2${pulseY}$3`);
+  const fill = panelPath.pathname.includes('-dark.svg') ? '#e6edf3' : '#0d1117';
+  const languageTotal = languages.reduce((sum, [, count]) => sum + count, 0) || 1;
+  let x = 540;
+  const bars = languages.map(([, count], index) => {
+    const width = index === languages.length - 1 ? 860 - x : Math.max((count / languageTotal) * 320, 8);
+    const rect = `<rect x="${x.toFixed(1)}" y="178" width="${width.toFixed(1)}" height="10" fill="${fill}" opacity="${(1 - index * 0.18).toFixed(2)}"/>`;
+    x += width;
+    return rect;
+  }).join('');
+  panel = panel.replace(/<g id="LANGUAGE_BARS"[^>]*>[\s\S]*?<\/g>/, `<g id="LANGUAGE_BARS" class="grow">${bars}</g>`);
   await writeFile(panelPath, panel);
 }
 
