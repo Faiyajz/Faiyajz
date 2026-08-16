@@ -1,175 +1,41 @@
+<!-- Profile panels use a transparent SVG terminal-card system, adapted for Faiyajz. -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-dark.svg" width="100%" alt="Muhammad Faiyaj Zaman — Faiyajz">
+</picture>
 
 <p align="center">
-  <img src="./assets/faiyaj_github_profile.png" alt="Banner"/>
+  <a href="https://www.linkedin.com/in/faiyajz/"><img src="assets/linkedin-badge.svg" height="20" alt="linkedin"></a>
+  <a href="mailto:faiyajz007@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square&logo=gmail&logoColor=000000" alt="email"></a>
+  <a href="https://github.com/Faiyajz"><img src="https://img.shields.io/badge/GITHUB-ffffff?style=flat-square&logo=github&logoColor=000000" alt="github"></a>
 </p>
 
-<h1 align="center">
-  Hi 👋, I'm <b>Muhammad Faiyaj Zaman</b>
-</h1>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/whoami-light.svg"><img src="assets/whoami-dark.svg" width="100%" alt="01 — whoami"></picture>
 
-<h3 align="center">
-  Full Stack Software Engineer • Backend Architect • Technical Lead
-</h3>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/ecosystem-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/ecosystem-light.svg"><img src="assets/ecosystem-dark.svg" width="100%" alt="02 — system map"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects-light.svg"><img src="assets/projects-dark.svg" width="100%" alt="03 — projects"></picture>
 
 <p align="center">
-  Building scalable systems, production-grade applications, and developer-focused solutions.
+  <a href="https://github.com/Faiyajz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-starter-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proj-starter-light.svg"><img src="assets/proj-starter-dark.svg" width="49%" alt="SPMS ERP Module"></picture></a>
+  <a href="https://github.com/Faiyajz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-algorithms-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proj-algorithms-light.svg"><img src="assets/proj-algorithms-dark.svg" width="49%" alt="HRM"></picture></a>
+  <a href="https://github.com/Faiyajz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-wigolo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proj-wigolo-light.svg"><img src="assets/proj-wigolo-dark.svg" width="49%" alt="Membership Portal"></picture></a>
+  <a href="https://github.com/Faiyajz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-career-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proj-career-light.svg"><img src="assets/proj-career-dark.svg" width="49%" alt="Omni-channel SMS Gateway"></picture></a>
+  <a href="https://github.com/Faiyajz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-textile-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proj-textile-light.svg"><img src="assets/proj-textile-dark.svg" width="49%" alt="Textile Solution"></picture></a>
 </p>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/telemetry-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/telemetry-light.svg"><img src="assets/telemetry-dark.svg" width="100%" alt="04 — telemetry"></picture>
 
-# About Me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Faiyajz&hide_border=true&radius=0&area=true&custom_title=CONTRIBUTION%20HEAT%20%2F%20RECENT%20ACTIVITY&bg_color=00000000&color=8b949e&line=e6edf3&point=e6edf3&area_color=e6edf3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Faiyajz&hide_border=true&radius=0&area=true&custom_title=CONTRIBUTION%20HEAT%20%2F%20RECENT%20ACTIVITY&bg_color=00000000&color=57606a&line=000000&point=000000&area_color=000000">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Faiyajz&hide_border=true&radius=0&area=true&custom_title=CONTRIBUTION%20HEAT%20%2F%20RECENT%20ACTIVITY&bg_color=00000000&color=8b949e&line=e6edf3&point=e6edf3&area_color=e6edf3" width="100%" alt="contribution heat summary">
+</picture>
 
-I’m a Full Stack Software Engineer focused on designing and building scalable, maintainable, and production-grade software systems with clean architecture and strong engineering standards.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/route-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/route-light.svg"><img src="assets/route-dark.svg" width="100%" alt="05 — the route"></picture>
 
-My experience spans backend engineering, frontend development, API architecture, cloud infrastructure, DevOps workflows, and production deployment. I enjoy solving complex business problems through software and building systems optimized for scalability, performance, and long-term maintainability.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg"><img src="assets/stack-dark.svg" width="100%" alt="06 — stack"></picture>
 
-I focus on:
-- Clean & modular architecture
-- Scalable backend systems
-- Developer productivity
-- Performance optimization
-- CI/CD automation
-- Technical leadership
-- Long-term product engineering
-
----
-
-# Tech Stack
-
-## Backend & APIs
-
-<p align="left">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/REST_API-0A66C2?style=for-the-badge&logo=postman&logoColor=white"/>
-</p>
-
----
-
-## Frontend & UI
-
-<p align="left">
-  <img src="https://img.shields.io/badge/React_JS-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Next_JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-</p>
-
----
-
-## Cloud, DevOps & Infrastructure
-
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CI/CD-222222?style=for-the-badge&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
-</p>
-
----
-
-# Production Expertise
-
-## Enterprise & Business Systems
-
-### Email & Communication Platforms
-- Designed scalable email workflow systems and communication platforms
-- Worked on backend architecture, queue processing, API integrations, and modular services
-
-### Analytics & Reporting Systems
-- Developed data-driven analytics and reporting platforms
-- Built dashboard systems, KPI monitoring, and business intelligence workflows
-
-### Human Resource Management (HRM)
-- Engineered HRM modules including employee management, attendance, permissions, and workflow automation
-- Focused on scalable role-based architecture and maintainable business logic
-
-### Hotel & Hospitality Management Systems
-- Built management systems for operational workflows, reservations, and administration
-- Worked on scalable backend infrastructure and business process automation
-
-### ERP & Enterprise Platforms
-- Architected modular ERP-style systems for production environments
-- Designed supplier, inventory, activity logging, and operational management workflows
-
----
-
-# Engineering Focus
-
-- Scalable System Design
-- RESTful API Architecture
-- Clean Code & SOLID Principles
-- Service-Oriented Architecture
-- Modular Development
-- CI/CD & Automation
-- Performance Optimization
-- Technical Leadership
-- Team Collaboration & Mentorship
-
----
-
-# Selected Work
-
-Most of my production work is private or confidential.
-
-My experience includes:
-- ERP Platforms
-- Enterprise Applications
-- SaaS Systems
-- API Architecture
-- Cloud Infrastructure
-- Full Stack Product Development
-- CI/CD & DevOps Automation
-
----
-
-# GitHub Analytics
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=faiyajz&show_icons=true&theme=tokyonight&hide_border=true" />
-  
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=faiyajz&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-# GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=faiyajz&theme=tokyonight&row=1&column=6&margin-w=15&margin-h=15"/>
-</p>
-
----
-
-# Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/faiyajz/faiyajz/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
-
----
-
-# Connect With Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/faiyajz/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-
-  <a href="mailto:faiyajz007@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <i>
-    "Clean architecture, scalable systems, and automation — the foundation of impactful software engineering."
-  </i>
-</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg"><img src="assets/footer-dark.svg" width="100%" alt="status"></picture>
