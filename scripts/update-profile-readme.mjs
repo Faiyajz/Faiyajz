@@ -5,6 +5,8 @@ const token = process.env.GITHUB_TOKEN;
 const panelPaths = [
   new URL('../assets/telemetry-dark.svg', import.meta.url),
   new URL('../assets/telemetry-light.svg', import.meta.url),
+  new URL('../assets/open-source-dark.svg', import.meta.url),
+  new URL('../assets/open-source-light.svg', import.meta.url),
 ];
 const nowPaths = [new URL('../assets/now-building-dark.svg', import.meta.url), new URL('../assets/now-building-light.svg', import.meta.url)];
 
@@ -22,7 +24,7 @@ const graphql = async (query, variables = {}) => {
 };
 
 const data = await graphql(
-  `query Profile($login: String!, $from: DateTime!, $mergedQuery: String!, $closedQuery: String!) {
+  `query Profile($login: String!, $from: DateTime!, $mergedQuery: String!) {
     user(login: $login) {
       repositories(first: 100, ownerAffiliations: [OWNER], isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) { totalCount nodes { name description primaryLanguage { name } pushedAt } }
       contributionsCollection(from: $from) {
@@ -34,13 +36,11 @@ const data = await graphql(
       issueCount
       nodes { ... on PullRequest { title url repository { nameWithOwner } mergedAt } }
     }
-    closed: search(query: $closedQuery, type: ISSUE, first: 1) { issueCount }
   }`,
   {
     login: username,
     from: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString(),
     mergedQuery: `type:pr is:merged author:${username}`,
-    closedQuery: `type:issue is:closed author:${username}`,
   },
 );
 
@@ -66,7 +66,6 @@ const contributed = new Set(data.user.contributionsCollection.commitContribution
 const values = {
   PUBLIC_REPOS: data.user.repositories.totalCount,
   MERGED_PRS: data.merged.issueCount,
-  CLOSED_ISSUES: data.closed.issueCount,
   COMMITS: data.user.contributionsCollection.totalCommitContributions,
   CONTRIBUTED_REPOS: contributed,
 };

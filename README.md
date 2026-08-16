@@ -10,6 +10,7 @@
   <a href="https://www.linkedin.com/in/faiyajz/"><img src="assets/linkedin-badge.svg" height="20" alt="linkedin"></a>
   <a href="mailto:faiyajz007@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square&logo=gmail&logoColor=000000" alt="email"></a>
   <a href="https://github.com/Faiyajz"><img src="https://img.shields.io/badge/GITHUB-ffffff?style=flat-square&logo=github&logoColor=000000" alt="github"></a>
+  <img src="https://komarev.com/ghpvc/?username=Faiyajz&amp;style=flat-square&amp;label=PROFILE%20VIEWS&amp;color=000000" alt="profile views">
 </p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/whoami-light.svg"><img src="assets/whoami-dark.svg" width="100%" alt="01 — whoami"></picture>
@@ -25,6 +26,8 @@
   <a href="https://github.com/Faiyajz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-career-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proj-career-light.svg"><img src="assets/proj-career-dark.svg" width="49%" alt="Omni-channel SMS Gateway"></picture></a>
   <a href="https://github.com/Faiyajz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-textile-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proj-textile-light.svg"><img src="assets/proj-textile-dark.svg" width="49%" alt="Textile Solution"></picture></a>
 </p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/open-source-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/open-source-light.svg"><img src="assets/open-source-dark.svg" width="100%" alt="03.1 — open source contributions"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/telemetry-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/telemetry-light.svg"><img src="assets/telemetry-dark.svg" width="100%" alt="04 — telemetry"></picture>
 

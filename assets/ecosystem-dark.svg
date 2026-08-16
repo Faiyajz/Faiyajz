@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 355" width="880" height="355" font-family="ui-monospace,'SFMono-Regular','Cascadia Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 445" width="880" height="445" font-family="ui-monospace,'SFMono-Regular','Cascadia Mono',Menlo,Consolas,'Liberation Mono',monospace">
 <style>
 .fade{animation:fade .9s ease both}
 @keyframes fade{from{opacity:0}}
@@ -10,6 +10,8 @@
 @keyframes draw{from{stroke-dashoffset:700}to{stroke-dashoffset:0}}
 .grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s ease both .4s}
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.flow{stroke-dasharray:4 6;animation:flow 2.4s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-20}}
 </style>
 <text x="10" y="26" font-size="12" fill="#8b949e" font-weight="600" text-anchor="start" letter-spacing="3" class="fade">02 — system map</text><line x1="158.0" y1="21" x2="870" y2="21" stroke="#30363d" stroke-width="1"/>
 <line x1="381" y1="182" x2="150" y2="120" stroke="#30363d" stroke-width="1" stroke-dasharray="3 5"/>
@@ -39,6 +41,9 @@
 <circle class="ping" cx="440" cy="192" r="34" fill="none" stroke="#8b949e" stroke-width="1"/>
 <rect x="370" y="173" width="140" height="38" rx="7" fill="none" stroke="#e6edf3" stroke-width="1.5"/>
 <text x="440" y="197" font-size="14" fill="#e6edf3" font-weight="700" text-anchor="middle" letter-spacing="1">faiyajz</text>
+<line x1="10" y1="395" x2="870" y2="395" stroke="#30363d" stroke-width="1"/>
+<text x="10" y="420" font-size="10" fill="#8b949e" font-weight="600" letter-spacing="2">DELIVERY FLOW</text>
+<line class="flow" x1="125" y1="416" x2="840" y2="416" stroke="#3fb950" stroke-width="1.2"/>
+<g fill="#e6edf3" font-size="10" text-anchor="middle"><text x="160" y="408">requirements</text><text x="300" y="408">domain workflows</text><text x="440" y="408">APIs</text><text x="565" y="408">dashboards</text><text x="690" y="408">deployment</text><text x="810" y="408">observability</text></g>
+<g fill="#3fb950"><circle cx="160" cy="416" r="3"/><circle cx="300" cy="416" r="3"/><circle cx="440" cy="416" r="3"/><circle cx="565" cy="416" r="3"/><circle cx="690" cy="416" r="3"/><circle cx="810" cy="416" r="3"/></g>
 </svg>
-
-

@@ -11,6 +11,5 @@
 .grow{transform-box:fill-box;transform-origin:left;animation:grow 1.4s ease both .4s}
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 </style>
-<text x="10" y="26" font-size="12" fill="#57606a" font-weight="600" text-anchor="start" letter-spacing="3" class="fade">03 — projects</text><line x1="143.60000000000002" y1="21" x2="870" y2="21" stroke="#d0d7de" stroke-width="1"/>
+<text x="10" y="26" font-size="12" fill="#57606a" font-weight="600" text-anchor="start" letter-spacing="3" class="fade">03 — operations portfolio</text><line x1="236" y1="21" x2="870" y2="21" stroke="#d0d7de" stroke-width="1"/>
 </svg>
-
