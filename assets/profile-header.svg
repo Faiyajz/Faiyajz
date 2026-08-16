@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Faiyaj Zaman — Full Stack Software Engineer</title>
+  <desc id="desc">An animated midnight-blue profile banner with an orbiting signal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#070b18"/><stop offset=".52" stop-color="#0d1630"/><stop offset="1" stop-color="#17103b"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#66e3ff" stop-opacity=".32"/><stop offset="1" stop-color="#66e3ff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#66e3ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <circle cx="930" cy="164" r="210" fill="url(#glow)" filter="url(#blur)">
+    <animate attributeName="r" values="190;225;190" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="none" stroke="url(#line)" opacity=".54">
+    <ellipse cx="930" cy="164" rx="198" ry="77" stroke-width="1.2"/>
+    <ellipse cx="930" cy="164" rx="110" ry="205" stroke-width="1" transform="rotate(30 930 164)"/>
+  </g>
+  <circle cx="1088" cy="225" r="6" fill="#66e3ff">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M-158,-61 A198,77 0 1,0 158,61 A198,77 0 1,0 -158,-61"/>
+  </circle>
+  <g fill="#c8d8ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <text x="72" y="74" font-size="14" letter-spacing="3" fill="#70e5ff">FAIYAJZ / ENGINEERING SYSTEMS</text>
+    <text x="70" y="162" font-family="system-ui, sans-serif" font-size="55" font-weight="700">Muhammad Faiyaj Zaman</text>
+    <text x="74" y="210" font-size="19" fill="#aebbd7">FULL STACK ENGINEER · BACKEND ARCHITECT</text>
+    <text x="74" y="279" font-size="15" fill="#7184aa">Build deliberately. Ship reliably. Improve continuously.</text>
+  </g>
+  <rect x="74" y="306" width="295" height="3" rx="2" fill="url(#line)">
+    <animate attributeName="width" values="122;295;122" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
